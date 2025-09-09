@@ -12,6 +12,7 @@ public class Opgave05 {
                 registrationFee + " i registreringsafgift.");
     }
 
+
     public static double calculateFee(int price) {
         double fee = 0;
 
@@ -30,6 +31,8 @@ public class Opgave05 {
             // Over 210.600 kr. = 150%
             fee += (price - 210600) * 1.5;
         }
+
+        
 
         return fee;
     }
