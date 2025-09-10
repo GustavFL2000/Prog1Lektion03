@@ -35,7 +35,7 @@ public class Opgave01 {
         } else {
             System.out.println("Du må ikke købe drikken.");
         }
-    }|| 
+    }
 
     }
 }
